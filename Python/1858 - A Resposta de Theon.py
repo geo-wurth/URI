@@ -1,0 +1,5 @@
+N = int(input())
+T = list(map(int, input().split()))
+T1 = sorted(T)
+algoz = T.index(T1[0])
+print(algoz+1)
